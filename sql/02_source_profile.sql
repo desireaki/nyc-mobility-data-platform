@@ -66,8 +66,3 @@ ORDER BY passenger_count;
 SELECT COUNT(*) AS invalid_duration
 FROM 'data\\raw\\yellow_tripdata_2025-01.parquet'
 WHERE tpep_dropoff_datetime < tpep_pickup_datetime;
-
---We have trips with no passengers
---Trips where drop off is less than pickup
---Fare is a negative number
---No distance covered
