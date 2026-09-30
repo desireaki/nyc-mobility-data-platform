@@ -1,1 +1,0 @@
-# nyc-mobility-data-platform
