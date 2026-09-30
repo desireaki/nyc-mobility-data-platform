@@ -27,9 +27,5 @@ MAX(total_amount),
 AVG(total_amount)
 FROM 'data\\raw\\yellow_tripdata_2025-01.parquet';
 
--- #Not normal
--- #future pickup times 
--- #dropoff time equal or less than pickup
--- #negative payment amount
 
 
