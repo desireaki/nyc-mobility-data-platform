@@ -1,1 +1,12 @@
-data/
+# Python virtual environment
+.venv/
+
+# Raw NYC TLC data
+data/raw/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
